@@ -3,5 +3,6 @@
     "reporter": "mochawesome",
     "env": {
         "url": "https://codenboxautomationlab.com"
-    }
+    },
+    "video": false
 }

@@ -15,6 +15,6 @@ describe("Testing the network", () => {
         cy.intercept('GET', '**/search/*').as('interception')
         cy.get('#id-search-field').type('pycon')
         cy.get('#submit').click()
-        cy.wait('@interception').then(({request, response}) => expect(response.statusCode).to.equal(200))
+        cy.wait('@interception').then(({request, response}) => expect(response.statusCode).to.eq(200))
     })
 })

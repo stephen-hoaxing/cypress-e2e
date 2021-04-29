@@ -3,7 +3,8 @@
     "reporter": "mochawesome",
     "reporterOptions": {
         "overwrite": false,
-        "charts": true
+        "charts": true,
+        "json": false
     },
     "env": {
         "url": "https://codenboxautomationlab.com"

@@ -1,6 +1,10 @@
 {
     "chromeWebSecurity": false,
     "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": false,
+        "charts": true
+    },
     "env": {
         "url": "https://codenboxautomationlab.com"
     },
